@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="es" />
+        <module name="ES-java-client-api" />
+        <module name="java-high-rest-client-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="es" target="7" />
+      <module name="ES-java-client-api" target="7" />
+      <module name="java-high-rest-client-api" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
