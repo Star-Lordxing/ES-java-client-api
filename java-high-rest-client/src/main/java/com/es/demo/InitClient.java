@@ -6,11 +6,10 @@ import org.elasticsearch.client.RestHighLevelClient;
 
 public class InitClient {
 
-    public static RestHighLevelClient getClient(){
-        System.out.println("开始初始化连接");
+    public static RestHighLevelClient getClient() {
         RestHighLevelClient client = new RestHighLevelClient(
                 RestClient.builder(
-                        new HttpHost("47.52.199.51", 9200, "http")));
+                        new HttpHost("start.com", 9200, "http")));
         return client;
     }
 
