@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="es" />
-        <module name="ES-java-client-api" />
-        <module name="java-high-rest-client-api" />
+        <module name="java-high-rest-client-demo" />
+        <module name="java-high-rest-client-demo (1)" />
+        <module name="java-transportClient-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="es" target="7" />
-      <module name="ES-java-client-api" target="7" />
-      <module name="java-high-rest-client-api" target="7" />
+      <module name="java-high-rest-client-demo" target="7" />
+      <module name="java-high-rest-client-demo (1)" target="7" />
+      <module name="java-transportClient-demo" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

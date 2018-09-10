@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ES-java-client-api.iml" filepath="$PROJECT_DIR$/.idea/ES-java-client-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-high-rest-client-demo/java-high-rest-client-demo.iml" filepath="$PROJECT_DIR$/java-high-rest-client-demo/java-high-rest-client-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-transportClient-demo/java-high-rest-client-demo (1).iml" filepath="$PROJECT_DIR$/java-transportClient-demo/java-high-rest-client-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-transportClient-demo/java-transportClient-demo.iml" filepath="$PROJECT_DIR$/java-transportClient-demo/java-transportClient-demo.iml" />
     </modules>
   </component>
 </project>
