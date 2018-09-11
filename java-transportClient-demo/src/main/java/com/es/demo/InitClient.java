@@ -21,7 +21,7 @@ public class InitClient {
             // 连接集群的设置
             Settings settings = Settings.builder()
                     .put("cluster.name", "my-application") //如果集群的名字不是默认的elasticsearch，需指定
-                    .put("client.transport.sniff", true) //自动嗅探
+                    .put("client.transport.sniff", false) //自动嗅探
                     .build();
             client = new PreBuiltTransportClient(settings)
                     //.addTransportAddress(new TransportAddress(InetAddress.getByName("localhost"), 9300));
